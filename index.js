@@ -752,4 +752,5 @@ client.on("messageCreate", async (message) => {
             if (!esStaff(message.member)) {
 
                 return message.reply(
-                    "❌ Solo el Staff pue
+    "❌ Solo el Staff puede utilizar este comando."
+);
